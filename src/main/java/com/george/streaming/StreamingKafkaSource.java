@@ -61,7 +61,7 @@ public class StreamingKafkaSource {
 
         text.print().setParallelism(1);
 
-        env.execute("StreamingFromCollection");
+        env.execute("StreamingKafkaSource");
 
     }
 
